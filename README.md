@@ -1,23 +1,31 @@
-# ecssim
-Large units simulation using ECS
+# ecs_sim
 
+A large-scale unit simulation built with Go and the Ebiten game engine, using an Entity Component System (ECS) architecture.
 
-## TODO List
+## [Play the game! (link)](https://gfeyer.github.io/ecs_sim/)
 
-- Robot component
-    - what data should it contain?
-    - States? 
+## Features
 
+- **Rendering Engine**
+  - Isometric tilemap rendering from TMX files.
+  - Camera system supporting pan, zoom, and viewport culling for efficient rendering.
 
-## Already Implemented
-- tmx isometric tilemap rendering
-- Camera pan/zoom and viewport culling
-- Input handling (mouse/keyboard) for unit navigation (A* on tiles)
-- Resource/asset from tmx file tileset (use tagging)
-- ECS core with systems for pathfinding and movement
-- Event queue for spawning units
+- **Entity Component System (ECS)**
+  - A robust ECS core manages game entities, components, and systems.
+  - Decoupled systems for logic like pathfinding, movement, rendering, and AI.
 
+- **Pathfinding and Movement**
+  - A* pathfinding for units on the tile-based world.
+  - Smooth movement along calculated paths.
 
-## Asset links
-- [Tiles_Simple_Plains](https://yuli-enderling.itch.io/isometric-flat-plains)
-- 
+- **AI and Game Logic**
+  - Robot AI system for autonomous unit behavior.
+  - Event queue for managing game state changes and spawning units.
+  - Factory system for creating and initializing game entities.
+
+- **Input and Debugging**
+  - Mouse and keyboard handling for camera control and unit interaction.
+  - Comprehensive debug system to visualize paths, grids, and other internal states.
+
+- **Asset Management**
+  - Loads and manages game assets, including sprites from TMX tilesets.

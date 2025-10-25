@@ -1,8 +1,10 @@
 # ecs_sim
 
-A large-scale unit simulation built with Go and the Ebiten game engine, using an Entity Component System (ECS) architecture.
+A large-scale unit simulation built in Go and the Ebiten, using an Entity Component System (ECS) architecture.
 
-## [Play the game! (link)](https://gfeyer.github.io/ecs_sim/)
+## [Watch the simulation! (link)](https://gfeyer.github.io/ecs_sim/)
+
+![Screenshot](assets/screenshot.png)
 
 ## Features
 

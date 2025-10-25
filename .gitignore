@@ -3,4 +3,3 @@ cmd/ecssim/__debug_*
 
 cmd/ecssim/ecssim
 assets/concepts/*
-assets/*.png

@@ -6,6 +6,8 @@ A large-scale unit simulation built in Go and the Ebiten, using an Entity Compon
 
 ![Screenshot](assets/screenshot.png)
 
+In the simulation, robots search for minerals around the map, load them, and bring them back to base.
+
 ## Features
 
 - **Rendering Engine**

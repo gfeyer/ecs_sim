@@ -4,9 +4,10 @@ A large-scale unit simulation built in Go and the Ebiten, using an Entity Compon
 
 ## [Watch the simulation! (link)](https://gfeyer.github.io/ecs_sim/)
 
+In the simulation, robots search for minerals around the map, load them, and bring them back to base.
+
 ![Screenshot](assets/screenshot.png)
 
-In the simulation, robots search for minerals around the map, load them, and bring them back to base.
 
 ## Features
 
